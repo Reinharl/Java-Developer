@@ -4,11 +4,17 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Java.iml" filepath="$PROJECT_DIR$/Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/module_1/compara_stringhe/compara_stringhe.iml" filepath="$PROJECT_DIR$/module_1/compara_stringhe/compara_stringhe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_1/conta_occorrenze/conta_occorrenze.iml" filepath="$PROJECT_DIR$/module_1/conta_occorrenze/conta_occorrenze.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_1/fattoriale/fattoriale.iml" filepath="$PROJECT_DIR$/module_1/fattoriale/fattoriale.iml" />
       <module fileurl="file://$PROJECT_DIR$/module_1/inverti_stringa/inverti_stringa.iml" filepath="$PROJECT_DIR$/module_1/inverti_stringa/inverti_stringa.iml" />
       <module fileurl="file://$PROJECT_DIR$/module_1/module_1.iml" filepath="$PROJECT_DIR$/module_1/module_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_1/numero_primo/numero_primo.iml" filepath="$PROJECT_DIR$/module_1/numero_primo/numero_primo.iml" />
       <module fileurl="file://$PROJECT_DIR$/module_1/operazioni_aritmetiche/operazioni_aritmetiche.iml" filepath="$PROJECT_DIR$/module_1/operazioni_aritmetiche/operazioni_aritmetiche.iml" />
       <module fileurl="file://$PROJECT_DIR$/module_1/pari_dispari/pari_dispari.iml" filepath="$PROJECT_DIR$/module_1/pari_dispari/pari_dispari.iml" />
       <module fileurl="file://$PROJECT_DIR$/module_1/rimpiazza_intrusi/rimpiazza_intrusi.iml" filepath="$PROJECT_DIR$/module_1/rimpiazza_intrusi/rimpiazza_intrusi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_1/somma_armonica/somma_armonica.iml" filepath="$PROJECT_DIR$/module_1/somma_armonica/somma_armonica.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_1/string_reverse/string_reverse.iml" filepath="$PROJECT_DIR$/module_1/string_reverse/string_reverse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_1/stringa_palindroma/stringa_palindroma.iml" filepath="$PROJECT_DIR$/module_1/stringa_palindroma/stringa_palindroma.iml" />
     </modules>
   </component>
 </project>

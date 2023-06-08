@@ -13,13 +13,13 @@ import java.util.Scanner;
 public class RimpiazzaIntrusi {
 
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.print("Enter string:");
-        String a=sc.nextLine();
+        String a = sc.nextLine();
         System.out.print("Enter string:");
-        String b=sc.nextLine();
+        String b = sc.nextLine();
         System.out.print("Enter string:");
-        String c=sc.nextLine();
+        String c ø= sc.nextLine();
         replaceIntruder(a, b, c);
     }
 
@@ -28,3 +28,4 @@ public class RimpiazzaIntrusi {
     }
 
 }
+```
