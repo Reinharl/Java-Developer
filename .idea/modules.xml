@@ -3,18 +3,29 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Java.iml" filepath="$PROJECT_DIR$/Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_2/anagrammi/anagrammi.iml" filepath="$PROJECT_DIR$/module_2/anagrammi/anagrammi.iml" />
       <module fileurl="file://$PROJECT_DIR$/module_1/compara_stringhe/compara_stringhe.iml" filepath="$PROJECT_DIR$/module_1/compara_stringhe/compara_stringhe.iml" />
       <module fileurl="file://$PROJECT_DIR$/module_1/conta_occorrenze/conta_occorrenze.iml" filepath="$PROJECT_DIR$/module_1/conta_occorrenze/conta_occorrenze.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_2/conta_vocali_consonanti/conta_vocali_consonanti.iml" filepath="$PROJECT_DIR$/module_2/conta_vocali_consonanti/conta_vocali_consonanti.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_2/da_dispari_a_pari/da_dispari_a_pari.iml" filepath="$PROJECT_DIR$/module_2/da_dispari_a_pari/da_dispari_a_pari.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_2/da_secondi_a_giorni_ore_minuti_secondi/da_secondi_a_giorni_ore_minuti_secondi.iml" filepath="$PROJECT_DIR$/module_2/da_secondi_a_giorni_ore_minuti_secondi/da_secondi_a_giorni_ore_minuti_secondi.iml" />
       <module fileurl="file://$PROJECT_DIR$/module_1/fattoriale/fattoriale.iml" filepath="$PROJECT_DIR$/module_1/fattoriale/fattoriale.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_2/fibonacci/fibonacci.iml" filepath="$PROJECT_DIR$/module_2/fibonacci/fibonacci.iml" />
       <module fileurl="file://$PROJECT_DIR$/module_1/inverti_stringa/inverti_stringa.iml" filepath="$PROJECT_DIR$/module_1/inverti_stringa/inverti_stringa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_2/minimo_e_massimo/minimo_e_massimo.iml" filepath="$PROJECT_DIR$/module_2/minimo_e_massimo/minimo_e_massimo.iml" />
       <module fileurl="file://$PROJECT_DIR$/module_1/module_1.iml" filepath="$PROJECT_DIR$/module_1/module_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_2/module_2.iml" filepath="$PROJECT_DIR$/module_2/module_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/module_1/numero_primo/numero_primo.iml" filepath="$PROJECT_DIR$/module_1/numero_primo/numero_primo.iml" />
       <module fileurl="file://$PROJECT_DIR$/module_1/operazioni_aritmetiche/operazioni_aritmetiche.iml" filepath="$PROJECT_DIR$/module_1/operazioni_aritmetiche/operazioni_aritmetiche.iml" />
       <module fileurl="file://$PROJECT_DIR$/module_1/pari_dispari/pari_dispari.iml" filepath="$PROJECT_DIR$/module_1/pari_dispari/pari_dispari.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_2/quadrato_di_un_numero/quadrato_di_un_numero.iml" filepath="$PROJECT_DIR$/module_2/quadrato_di_un_numero/quadrato_di_un_numero.iml" />
       <module fileurl="file://$PROJECT_DIR$/module_1/rimpiazza_intrusi/rimpiazza_intrusi.iml" filepath="$PROJECT_DIR$/module_1/rimpiazza_intrusi/rimpiazza_intrusi.iml" />
       <module fileurl="file://$PROJECT_DIR$/module_1/somma_armonica/somma_armonica.iml" filepath="$PROJECT_DIR$/module_1/somma_armonica/somma_armonica.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_2/somma_diagonale/somma_diagonale.iml" filepath="$PROJECT_DIR$/module_2/somma_diagonale/somma_diagonale.iml" />
       <module fileurl="file://$PROJECT_DIR$/module_1/string_reverse/string_reverse.iml" filepath="$PROJECT_DIR$/module_1/string_reverse/string_reverse.iml" />
       <module fileurl="file://$PROJECT_DIR$/module_1/stringa_palindroma/stringa_palindroma.iml" filepath="$PROJECT_DIR$/module_1/stringa_palindroma/stringa_palindroma.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_2/tabelline/tabelline.iml" filepath="$PROJECT_DIR$/module_2/tabelline/tabelline.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_2/tombola/tombola.iml" filepath="$PROJECT_DIR$/module_2/tombola/tombola.iml" />
     </modules>
   </component>
 </project>
