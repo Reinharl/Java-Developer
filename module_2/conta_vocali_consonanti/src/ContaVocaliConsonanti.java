@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class ContaVocaliConsonanti {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        
+
         System.out.print("Inserisci una frase: ");
         String s = sc.nextLine();
         countVocalsConsonant(s);
