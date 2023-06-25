@@ -37,7 +37,7 @@ public class Main.Main {
 ```
 
 Sarà perciò necessario creare anche una classe Libro con delle proprie caratteristiche, tra cui ad esempio, un indice,
-nome, autore, categoria, ecc.
+nome, author, categoria, ecc.
 
 NOTA: l'ordinamento dei libri può essere implementato da zero (ad esempio implementando il [selection sort](https://en.wikipedia.org/wiki/Selection_sort)
 o l'[insertion sort](https://en.wikipedia.org/wiki/Insertion_sort)) o fatto in maniera più smart con un Comparator,
