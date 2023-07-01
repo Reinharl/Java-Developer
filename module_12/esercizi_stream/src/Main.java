@@ -64,7 +64,8 @@ public class Main {
 
         // Restituire la somma di una lista di interi
         Integer sum = integers.stream()
-                .collect(Collectors.summingInt(x -> x));
+                .mapToInt(x -> x)
+                .sum();
 
 
     }

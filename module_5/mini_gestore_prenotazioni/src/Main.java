@@ -31,11 +31,11 @@ public class Main {
         System.out.println(prenotazioniInterno == 1);
         System.out.println(prenotazioniEsterno == 3);
         Prenotazione p5 = new PrenotazioneGruppo("45", 2);
-        boolean a  = miniGestorePrenotazioni.prenota(p5);
-        prenotazioniInternoArray = miniGestorePrenotazioni.prenotazioniAttualiInterno();
-        prenotazioniEsternoArray = miniGestorePrenotazioni.prenotazioniAttualiEsterno();
+        boolean a = miniGestorePrenotazioni.prenota(p5);
         prenotazioniInterno = 0;
         prenotazioniEsterno = 0;
+        prenotazioniInternoArray = miniGestorePrenotazioni.prenotazioniAttualiInterno();
+        prenotazioniEsternoArray = miniGestorePrenotazioni.prenotazioniAttualiEsterno();
 //contiamo e togliamo i null se presenti
         for (int i = 0; i < prenotazioniInternoArray.length; i++)
             if (prenotazioniInternoArray[i] != null) {
@@ -60,10 +60,5 @@ public class Main {
         Prenotazione p6 = new PrenotazioneSingola("67", Preferenza.ESTERNO);
         boolean inserita = miniGestorePrenotazioni.prenota(p6);
         System.out.println(inserita);
-        prenotazioniInternoArray = miniGestorePrenotazioni.prenotazioniAttualiInterno();
-        prenotazioniEsternoArray = miniGestorePrenotazioni.prenotazioniAttualiEsterno();
-        System.out.println(Arrays.toString(prenotazioniInternoArray));
-        System.out.println(Arrays.toString(prenotazioniEsternoArray));
-        //miniGestorePrenotazioni.terminaPrenotazione(p6);
     }
 }

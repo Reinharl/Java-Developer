@@ -10,5 +10,8 @@
         <module name="mini_e_commerce" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="andiamo_a_teatro" target="20" />
+    </bytecodeTargetLevel>
   </component>
 </project>

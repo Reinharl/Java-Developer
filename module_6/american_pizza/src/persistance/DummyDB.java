@@ -1,6 +1,13 @@
 package persistance;
 
-import model.*;
+import model.drink.Drink;
+import model.drink.DrinkLemonade;
+import model.drink.DrinkWater;
+import model.franchising.Franchising;
+import model.franchising.FranchisingMug;
+import model.franchising.FranchisingShirt;
+import model.pizza.*;
+import model.pizza.PizzaTopping;
 
 import java.util.ArrayList;
 import java.util.List;

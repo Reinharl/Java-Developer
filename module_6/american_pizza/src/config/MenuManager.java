@@ -1,9 +1,8 @@
 package config;
 
-import model.Drink;
-import model.Franchising;
-import model.Pizza;
-import model.PizzaTopping;
+import model.drink.Drink;
+import model.franchising.Franchising;
+import model.pizza.Pizza;
 import persistance.DummyDB;
 
 public class MenuManager {

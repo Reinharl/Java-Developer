@@ -20,9 +20,7 @@ public class Main {
         serieA.esistoPartita(juve, 3, lazio, 0);
         Squadra[] chart = serieA.getClassifica();
         System.out.println(Arrays.toString(chart));
-        Squadra migliorAttacco = serieA.getMigliorAttacco();
-        Squadra peggiorDifesa = serieA.getPeggiorDifesa();
-        System.out.println(migliorAttacco.toString());
-        System.out.println(peggiorDifesa.toString());
+        System.out.println(serieA.getMigliorAttacco() == roma);
+        System.out.println(serieA.getPeggiorDifesa() == lazio);
     }
 }

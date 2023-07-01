@@ -2,6 +2,7 @@ import java.io.*;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
@@ -11,14 +12,15 @@ public class Main {
 
     public static void righeInverse() {
         Path pathRighe = Paths.get("module_9", "righe_inverse", "src", "righe.txt");
-        ArrayList<String> righe = new ArrayList<>();
+        List<String> list = new ArrayList<>();
 
         try {
-            Scanner reader = new Scanner(new BufferedReader(new FileReader(pathRighe.toString())));
+            BufferedReader reader = new BufferedReader(new FileReader(pathRighe.toString()));
 
-            while (reader.hasNext()) {
-                String riga = reader.nextLine();
-                righe.add(riga);
+            String line = reader.readLine();
+            while (line != null) {
+                list.add(line);
+                line = reader.readLine();
             }
             reader.close();
 
@@ -37,11 +39,10 @@ public class Main {
         }
 
         try {
-            FileWriter writer = new FileWriter(pathRigheInverse.toFile());
+            BufferedWriter writer = new BufferedWriter(new FileWriter(pathRigheInverse.toString()));
 
-            for (int i = 0; i < righe.size(); i++) {
-                writer.write(righe.get(righe.size() - 1 - i));
-                writer.write("\n");
+            for (int i = 0; i < list.size(); i++) {
+                writer.write(list.get(list.size() - 1 - i) + '\n');
             }
             writer.close();
 

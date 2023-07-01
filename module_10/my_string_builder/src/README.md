@@ -25,14 +25,14 @@ La classe `MyStringBuilder` dovrà quindi implementare almeno:
 E consentire la corretta esecuzione del seguente codice:
 
 ```Java
-MyStringBuilder msb = new MyStringBuilder(); 
+MyString.Builder msb = new MyString.Builder();
 
-msb.append("Facilissimo")
-   .append(" concatenare")
-   .append(" stringhe!");
+        msb.append("Facilissimo")
+        .append(" concatenare")
+        .append(" stringhe!");
 
-String myFinalString = msb.build();
+        String myFinalString = msb.build();
 
-System.out.println(finalString.equals("Facilissimo concatenare stringhe!"));
-System.out.println(finalString);
+        System.out.println(myFinalString.equals("Facilissimo concatenare stringhe!"));
+        System.out.println(myFinalString);
 ```

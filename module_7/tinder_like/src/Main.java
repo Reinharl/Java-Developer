@@ -40,8 +40,8 @@ public class Main {
         System.out.println(uMarco.getName() + " match " + tinderLike.match(uMarco).getName());
         System.out.println(uAnna.getName() + " match " + tinderLike.match(uAnna).getName());
 
-        System.out.println(uAndrea.getName() + " 2' match " + tinderLike.match(uAndrea, 2).get(1).getName());
-        System.out.println(uMarco.getName() + " 2' match " + tinderLike.match(uMarco, 2).get(1).getName());
-        System.out.println(uAnna.getName() + " 2' match " + tinderLike.match(uAnna, 2).get(1).getName());
+        System.out.println(uAndrea.getName() + " second match " + tinderLike.match(uAndrea, 2).get(1).getName());
+        System.out.println(uMarco.getName() + " second match " + tinderLike.match(uMarco, 2).get(1).getName());
+        System.out.println(uAnna.getName() + " second match " + tinderLike.match(uAnna, 2).get(1).getName());
     }
 }

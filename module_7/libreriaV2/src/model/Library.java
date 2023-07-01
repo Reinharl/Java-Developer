@@ -3,15 +3,15 @@ package model;
 import java.util.*;
 
 public class Library {
-    private HashMap<Integer, Book> book;
+    private List<Book> book;
 
     public Library() {
-        book = new HashMap<>();
+        book = new ArrayList<>();
     }
 
     public void addBook(Book book) {
         if (book != null) {
-            this.book.put(book.getIdBook(), book);
+            this.book.add(book);
         }
     }
 
@@ -27,32 +27,28 @@ public class Library {
         return book.get(idBook);
     }
 
-    public ArrayList<Book> searchByTitle(String title) {
-        ArrayList<Book> result = new ArrayList<>();
+    public List<Book> searchByTitle(String title) {
+        List<Book> result = new ArrayList<>();
 
-        for (Integer entry : book.keySet()) {
-            Book libro = book.get(entry);
-
-            if (libro.getTitle().equals(title)) {
-                result.add(libro);
+        for (Book b : book) {
+            if(b.getTitle().equals(title)) {
+                result.add(b);
             }
         }
 
         return result;
     }
 
-    public ArrayList<Book> searchByAuthor(Author author) {
-        return searchByAuthor(author.getIdAuthor());
+    public List<Book> searchByAuthor(Author author) {
+        return searchByAuthorId(author.getIdAuthor());
     }
 
-    public ArrayList<Book> searchByAuthor(int idAuthor) {
-        ArrayList<Book> result = new ArrayList<>();
+    public List<Book> searchByAuthorId(int idAuthor) {
+        List<Book> result = new ArrayList<>();
 
-        for (Integer entry : book.keySet()) {
-            Book libro = book.get(entry);
-
-            if (libro.getAuthor().getIdAuthor() == idAuthor) {
-                result.add(libro);
+        for (Book b : book) {
+            if(b.getAuthor().getIdAuthor() == idAuthor) {
+                result.add(b);
             }
         }
 
@@ -64,7 +60,7 @@ public class Library {
     }
 
     public void printAuthorAscending(int idAuthor) {
-        ArrayList<Book> libri = searchByAuthor(idAuthor);
+        List<Book> libri = searchByAuthorId(idAuthor);
 
         Collections.sort(libri);
 

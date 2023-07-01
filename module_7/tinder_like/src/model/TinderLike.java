@@ -2,15 +2,17 @@ package model;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class TinderLike {
-    private HashMap<User, ArrayList<Interest>> tinder;
+    private Map<User, List<Interest>> tinder;
 
     public TinderLike() {
         tinder = new HashMap<>();
     }
 
-    public void add(User user, ArrayList<Interest> interests) {
+    public void add(User user, List<Interest> interests) {
         if (user != null && interests != null) {
             tinder.put(user, interests);
         }
@@ -23,8 +25,8 @@ public class TinderLike {
     public int compareInterests(User user1, User user2) {
         int n = 0;
 
-        ArrayList<Interest> interest1 = tinder.get(user1);
-        ArrayList<Interest> interest2 = tinder.get(user2);
+        List<Interest> interest1 = tinder.get(user1);
+        List<Interest> interest2 = tinder.get(user2);
 
         for (Interest interestA : interest1) {
             for (Interest interestB : interest2) {
@@ -39,14 +41,14 @@ public class TinderLike {
     }
 
     public User match(User user) {
-        ArrayList<User> temp = match(user, 1);
+        List<User> temp = match(user, 1);
         return temp.get(0);
     }
 
-    public ArrayList<User> match(User user, int n) {
+    public List<User> match(User user, int n) {
         int max = 0;
         User temp = null;
-        ArrayList<User> result = new ArrayList<>();
+        List<User> result = new ArrayList<>();
 
         for (int i = 0; i < n; i++) {
             for (User entry : tinder.keySet()) {
