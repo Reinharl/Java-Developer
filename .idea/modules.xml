@@ -40,8 +40,6 @@
       <module fileurl="file://$PROJECT_DIR$/module_10/module_10.iml" filepath="$PROJECT_DIR$/module_10/module_10.iml" />
       <module fileurl="file://$PROJECT_DIR$/module_11/module_11.iml" filepath="$PROJECT_DIR$/module_11/module_11.iml" />
       <module fileurl="file://$PROJECT_DIR$/module_12/module_12.iml" filepath="$PROJECT_DIR$/module_12/module_12.iml" />
-      <module fileurl="file://$PROJECT_DIR$/module_13/module_13.iml" filepath="$PROJECT_DIR$/module_13/module_13.iml" />
-      <module fileurl="file://$PROJECT_DIR$/module_16/module_16.iml" filepath="$PROJECT_DIR$/module_16/module_16.iml" />
       <module fileurl="file://$PROJECT_DIR$/module_2/module_2.iml" filepath="$PROJECT_DIR$/module_2/module_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/module_3/module_3.iml" filepath="$PROJECT_DIR$/module_3/module_3.iml" />
       <module fileurl="file://$PROJECT_DIR$/module_4/module_4.iml" filepath="$PROJECT_DIR$/module_4/module_4.iml" />
@@ -51,6 +49,7 @@
       <module fileurl="file://$PROJECT_DIR$/module_8/module_8.iml" filepath="$PROJECT_DIR$/module_8/module_8.iml" />
       <module fileurl="file://$PROJECT_DIR$/module_9/module_9.iml" filepath="$PROJECT_DIR$/module_9/module_9.iml" />
       <module fileurl="file://$PROJECT_DIR$/module_10/my_string_builder/my_string_builder.iml" filepath="$PROJECT_DIR$/module_10/my_string_builder/my_string_builder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_4/negozio/negozio.iml" filepath="$PROJECT_DIR$/module_4/negozio/negozio.iml" />
       <module fileurl="file://$PROJECT_DIR$/module_1/numero_primo/numero_primo.iml" filepath="$PROJECT_DIR$/module_1/numero_primo/numero_primo.iml" />
       <module fileurl="file://$PROJECT_DIR$/module_1/operazioni_aritmetiche/operazioni_aritmetiche.iml" filepath="$PROJECT_DIR$/module_1/operazioni_aritmetiche/operazioni_aritmetiche.iml" />
       <module fileurl="file://$PROJECT_DIR$/module_11/palindroma_ricorsiva/palindroma_ricorsiva.iml" filepath="$PROJECT_DIR$/module_11/palindroma_ricorsiva/palindroma_ricorsiva.iml" />

@@ -10,10 +10,10 @@ Implementare quindi una classe ListaDiInteri che preveda almeno i seguenti metod
 - `contains(int i)` contiene un determinato intero (true o false)?
 - `add(int i)` aggiungi un intero in coda alla lista
 
-Main.Main di test:
+Main di test:
 
 ```java
-public class Main.Main {
+public class Main {
     public static void main(String[] args) {
         ListaDiInteri lista = new ListaDiInteri();
         lista.add(1);
