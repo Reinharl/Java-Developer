@@ -1,6 +1,6 @@
-package repository.license_typo;
+package org.example.repository.license_typo;
 
-import model.user.LicenseTypo;
+import org.example.model.user.LicenseTypo;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -14,7 +14,7 @@ import java.util.UUID;
 
 public class LicenseTypoDaoCsv implements DaoLicenseTypo {
     private static volatile LicenseTypoDaoCsv instance;
-    private final Path LICENSE_TYPO_REPOSITORY_PATH = Path.of("module_12", "shared_mobility", "src", "csv", "license_typo");
+    private final Path LICENSE_TYPO_REPOSITORY_PATH = Path.of("module_13", "shared_mobility_api", "src", "main", "java", "org", "example", "csv", "license_typo");
     private Map<UUID, String> licenseTypoMap;
 
     public LicenseTypoDaoCsv() throws IOException {

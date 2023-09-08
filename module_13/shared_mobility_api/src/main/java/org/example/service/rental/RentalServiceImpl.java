@@ -1,22 +1,21 @@
-package service.rental;
+package org.example.service.rental;
 
-import exception.GenericException;
-
-import model.rental.Rental;
-import model.user.DrivingLicense;
-import model.user.DrivingLicenseTypology;
-import model.user.User;
-import model.vehicle.Vehicle;
-import repository.driving_license.DaoDrivingLicense;
-import repository.driving_license.DrivingLicenseDaoCsv;
-import repository.driving_license_typology.DaoDrivingLicenseTypology;
-import repository.driving_license_typology.DrivingLicenseTypologyDaoCsv;
-import repository.rental.DaoRental;
-import repository.rental.RentalDaoCsv;
-import repository.user.DaoUser;
-import repository.user.UserDaoCsv;
-import repository.vehicle.DaoVehicle;
-import repository.vehicle.VehicleDaoCsv;
+import org.example.exception.GenericException;
+import org.example.model.rental.Rental;
+import org.example.model.user.DrivingLicense;
+import org.example.model.user.DrivingLicenseTypology;
+import org.example.model.user.User;
+import org.example.model.vehicle.Vehicle;
+import org.example.repository.driving_license.DaoDrivingLicense;
+import org.example.repository.driving_license.DrivingLicenseDaoCsv;
+import org.example.repository.driving_license_typology.DaoDrivingLicenseTypology;
+import org.example.repository.driving_license_typology.DrivingLicenseTypologyDaoCsv;
+import org.example.repository.rental.DaoRental;
+import org.example.repository.rental.RentalDaoCsv;
+import org.example.repository.user.DaoUser;
+import org.example.repository.user.UserDaoCsv;
+import org.example.repository.vehicle.DaoVehicle;
+import org.example.repository.vehicle.VehicleDaoCsv;
 
 import java.io.IOException;
 import java.time.Duration;
@@ -24,9 +23,11 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.UUID;
+import java.util.logging.Logger;
 
 public class RentalServiceImpl implements RentalService {
 
+    private final Logger logger = Logger.getLogger("RENTAL-SERVICE");
     private final DaoRental rentalRepository;
     private final DaoUser userRepository;
     private final DaoDrivingLicense drivingLicenseRepository;
@@ -75,7 +76,7 @@ public class RentalServiceImpl implements RentalService {
 
         rentalRepository.save(rental);
 
-        System.out.println("Rental started");
+        logger.info("Rental started");
     }
 
     @Override
@@ -94,7 +95,7 @@ public class RentalServiceImpl implements RentalService {
 
         long amount = (long) (priceForSecond * rental.getDuration().toSeconds() * 100);
 
-        System.out.println("Rental ended the amount is: " + (double) amount / 100);
+        logger.info("Rental ended the amount is: " + (double) amount / 100);
 
         //TODO Si può implementare la logica per avviare il pagamento attraverso il design pattern Observer
     }

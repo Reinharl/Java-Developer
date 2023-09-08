@@ -1,6 +1,6 @@
-package repository.vehicle_typo;
+package org.example.repository.vehicle_typo;
 
-import model.vehicle.VehicleTypo;
+import org.example.model.vehicle.VehicleTypo;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -14,7 +14,7 @@ import java.util.UUID;
 
 public class VehicleTypoDaoCsv implements DaoVehicleTypo {
     private static volatile VehicleTypoDaoCsv instance;
-    private final Path VEHICLE_TYPO_REPOSITORY_PATH = Path.of("module_12", "shared_mobility", "src", "csv", "vehicle_typo");
+    private final Path VEHICLE_TYPO_REPOSITORY_PATH = Path.of("module_13", "shared_mobility_api", "src", "main", "java", "org", "example", "csv", "vehicle_typo");
     private Map<UUID, String> vehicleTypoMap;
 
     public VehicleTypoDaoCsv() throws IOException {
