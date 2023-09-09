@@ -3,7 +3,11 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/module_13/mini_e_commerce/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/module_13/mini_e_commerce/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/module_13/shared_mobility_api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/module_13/shared_mobility_api/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/module_16/andiamo_a_teatro/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/module_16/andiamo_a_teatro/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/module_16/shared_mobility_database/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/module_16/shared_mobility_database/src/main/resources" charset="UTF-8" />
   </component>
 </project>

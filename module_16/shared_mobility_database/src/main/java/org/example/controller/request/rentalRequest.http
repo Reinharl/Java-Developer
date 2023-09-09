@@ -1,0 +1,7 @@
+### Rent Vehicle
+POST http://localhost:4567/rentals/b730e8a4-483e-4559-9c36-d48821429a21/8521ece4-c554-4f81-8063-2a7c566704f9
+Content-Type: application/json
+
+### Rent Vehicle
+POST http://localhost:4567/rentals/088f0f48-a57a-47ac-b200-09fc9d17a01d
+Content-Type: application/json

@@ -6,6 +6,8 @@
       <list>
         <option value="$PROJECT_DIR$/module_13/mini_e_commerce/pom.xml" />
         <option value="$PROJECT_DIR$/module_16/andiamo_a_teatro/pom.xml" />
+        <option value="$PROJECT_DIR$/module_13/shared_mobility_api/pom.xml" />
+        <option value="$PROJECT_DIR$/module_16/shared_mobility_database/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

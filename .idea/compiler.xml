@@ -7,11 +7,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mini_e_commerce" />
+        <module name="shared_mobility_database" />
+        <module name="shared_mobility_api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="andiamo_a_teatro" target="20" />
+      <module name="mini_e_commerce" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
